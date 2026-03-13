@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Play & Earn Hub</title>
+<style>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+header {
+  background: #020617;
+  padding: 20px;
+}
+h1 {
+  color: #22c55e;
+}
+button {
+  padding: 14px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background: #22c55e;
+  cursor: pointer;
+}
+iframe {
+  width: 90%;
+  height: 420px;
+  border: none;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+}
+</style>
+<script>
+function bonus() {
+  alert("Daily bonus added!");
+}
+function ad() {
+  alert("Ad reward added!");
+}
+</script>
+</head>
+<body>
+
+<header>
+  <h1>Play & Earn Hub</h1>
+</header>
+
+<h2>Earn Coins</h2>
+<button onclick="bonus()">🎁 Daily Bonus</button>
+<button onclick="ad()">📺 Watch Ad Reward</button>
+
+<h2>Play Games</h2>
+
+<h3>Snake Game</h3>
+<iframe src="https://games.crazygames.com/en_US/snake/index.html"></iframe>
+
+<h3>2048 Puzzle</h3>
+<iframe src="https://games.crazygames.com/en_US/2048/index.html"></iframe>
+
+<h3>Tower Crash</h3>
+<iframe src="https://games.crazygames.com/en_US/tower-crash-3d/index.html"></iframe>
+
+<h2>Invite Friends</h2>
+<input type="text" value="https://yourwebsite.com/?ref=123" readonly>
+<p>Earn coins when friends join</p>
+
+</body>
+</html>
